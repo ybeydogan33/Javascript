@@ -17,21 +17,7 @@ function method1(){
 method1();
 //Block Scope
 if(true){
-    var c=3
+    let c=3
     console.log(c);
 }
 
-function method2(){
-    var d=4;
-    if(true){
-        let e=5;
-        console.log(d);
-        console.log(e);
-    }
-    console.log(d)    
-    console.log(e)//! Hata verir Erişemez     
-}
-
-method2();
-
-//?NOT: block içindeki scope varı kapsamaz let veya const ile tanımlanır
