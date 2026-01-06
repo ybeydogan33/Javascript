@@ -43,17 +43,22 @@ const f = 8;
 //!f = 9; Çalışmaz hata verir.
 console.log(f);
 
-
 var user = {
     userName : "Yavuz",
     password : "123",
 }
-//* Değişiklik 1
-var user = {
+user = {
     yas : 23
 }
-//* Değişiklik 2
 user.yas = 24;
-//* Değişiklik 1 ve 2 ye izin verir
+
+let user1 ={
+    userName : "Alp",
+    password : "456"
+}
+
+user1= {yas:25}
+user1.userName
 
 console.log(user)
+console.log(user1)
