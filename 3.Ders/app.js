@@ -56,7 +56,7 @@ let user1 ={
     userName : "Alp",
     password : "456"
 }
-
+ 
 user1= {yas:25}
 user1.userName
 
